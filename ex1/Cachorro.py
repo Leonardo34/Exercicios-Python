@@ -6,6 +6,8 @@ class Cachorro:
 		self.nome = nome
 
 	def diga_ola (self):
-		print 'ola'
+		print 'Ola sou ' + self.nome
+		print 'Tenho %d  patas' % self.patas
+		print 'E me alimento de ' + self.alimento
 	
 
